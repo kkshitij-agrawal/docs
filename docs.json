@@ -5,7 +5,7 @@
   "colors": {
     "primary": "#000",
     "light": "#07C983",
-    "dark": "#15803D"
+    "dark": "#000"
   },
   "favicon": "/favicon.svg",
   "navigation": {
@@ -22,9 +22,11 @@
             ]
           },
           {
-            "group": "Design",
+            "group": "Crit",
             "pages": [
-              "design-score/overview"
+              "design/design-score",
+              "design/design-score/overview",
+              "design/design-score/clarity"
              
             ]
           }
@@ -78,8 +80,8 @@
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "label": "Contact",
+        "href": "mailto:hello@1000x.design"
       }
     ],
     "primary": {
@@ -90,8 +92,7 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
+      "x": "https://x.com/meetcrit",
       "linkedin": "https://linkedin.com/company/mintlify"
     }
   }
