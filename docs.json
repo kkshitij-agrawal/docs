@@ -14,8 +14,7 @@
                 "group": "Get Started",
                 "pages": [
                     "introduction",
-                    "quickstart",
-                    "development"
+                    "context"
                 ]
             },
             {
@@ -26,7 +25,8 @@
                     "group": "Score calculation",
                     "icon": "calculator-simple",
                     "pages": ["crit/design-score/overview", "crit/design-score/clarity", "crit/design-score/conversion"]
-                  }
+                  },
+                  "crit/integrations"
                 ]
             }
         ],
