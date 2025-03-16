@@ -58,13 +58,15 @@
         "links": [
             {
                 "label": "Contact",
-                "href": "mailto:hello@1000x.design"
+                "href": "mailto:hello@1000x.design",
+               "icon": "envelope"
             }
         ],
         "primary": {
             "type": "button",
             "label": "Try Crit",
-            "href": "https://www.trycrit.com/"
+            "href": "https://www.trycrit.com/",
+            "icon": "bolt"
         }
     },
     "footer": {
