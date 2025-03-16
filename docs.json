@@ -54,18 +54,18 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "anchor": "Try Crit",
+          "href": "https://www.trycrit.com/",
+          "icon": "browser"
         },
         {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
+          "anchor": "Follow",
+          "href": "https://x.com/meetcrit",
+          "icon": "twitter"
         },
         {
           "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
+          "href": "https://1000xdesign.substack.com/",
           "icon": "newspaper"
         }
       ]
