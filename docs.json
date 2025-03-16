@@ -1,76 +1,73 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "1000x Documentation",
-  "colors": {
-    "primary": "#000",
-    "light": "#07C983",
-    "dark": "#000"
-  },
-  "favicon": "/favicon.svg",
-  "navigation": {
+    "$schema": "https://mintlify.com/docs.json",
+    "theme": "mint",
+    "name": "1000x Documentation",
+    "colors": {
+        "primary": "#000",
+        "light": "#07C983",
+        "dark": "#000"
+    },
+    "favicon": "/favicon.svg",
+    "navigation": {
         "groups": [
-          {
-            "group": "Get Started",
-            "pages": [
-              "introduction",
-              "quickstart",
-              "development"
+            {
+                "group": "Get Started",
+                "pages": [
+                    "introduction",
+                    "quickstart",
+                    "development"
+                ]
+            },
+            {
+                "group": "Crit",
+                "pages": [
+                    "design/design-score",
+                    "design/design-score/overview",
+                    "design/design-score/clarity"
+                ]
+            }
+        ],
+        "global": {
+            "anchors": [
+                {
+                    "anchor": "Try Crit",
+                    "href": "https://www.trycrit.com/",
+                    "icon": "browser"
+                },
+                {
+                    "anchor": "Follow",
+                    "href": "https://x.com/meetcrit",
+                    "icon": "twitter"
+                },
+                {
+                    "anchor": "Blog",
+                    "href": "https://1000xdesign.substack.com/",
+                    "icon": "newspaper"
+                }
             ]
-          },
-          {
-            "group": "Crit",
-            "pages": [
-              "design/design-score",
-              "design/design-score/overview",
-              "design/design-score/clarity"
-             
-            ]
-          
-          }
-    ]
-  },
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Try Crit",
-          "href": "https://www.trycrit.com/",
-          "icon": "browser"
-        },
-        {
-          "anchor": "Follow",
-          "href": "https://x.com/meetcrit",
-          "icon": "twitter"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://1000xdesign.substack.com/",
-          "icon": "newspaper"
         }
-      ]
+    },
+    "logo": {
+        "light": "/logo/light.svg",
+        "dark": "/logo/dark.svg"
+    },
+    "navbar": {
+        "links": [
+            {
+                "label": "Contact",
+                "href": "mailto:hello@1000x.design"
+            }
+        ],
+        "primary": {
+            "type": "button",
+            "label": "Dashboard",
+            "href": "https://dashboard.mintlify.com"
+        }
+    },
+    "footer": {
+        "socials": {
+            "x": "https://x.com/meetcrit",
+            "linkedin": "https://linkedin.com/company/mintlify"
+        }
     }
-  },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
-  "navbar": {
-    "links": [
-      {
-        "label": "Contact",
-        "href": "mailto:hello@1000x.design"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
-    }
-  },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/meetcrit",
-      "linkedin": "https://linkedin.com/company/mintlify"
-    }
-  }
 }
