@@ -1,11 +1,11 @@
 {
     "$schema": "https://mintlify.com/docs.json",
-    "theme": "mint",
-    "name": "1000x Documentation",
+    "theme": "maple",
+    "name": "1000x Design",
     "colors": {
         "primary": "#000",
         "light": "#07C983",
-        "dark": "#000"
+        "dark": "#fff"
     },
     "favicon": "/favicon.svg",
     "navigation": {
@@ -21,9 +21,12 @@
             {
                 "group": "Crit",
                 "pages": [
-                    "design/design-score",
-                    "design/design-score/overview",
-                    "design/design-score/clarity"
+                    "crit/intro",
+                  {
+                    "group": "How it works",
+                    "icon": "pen-paintbrush",
+                    "pages": ["crit/design-score/overview", "crit/design-score/clarity", "crit/design-score/conversion"]
+                  }
                 ]
             }
         ],
@@ -40,7 +43,7 @@
                     "icon": "twitter"
                 },
                 {
-                    "anchor": "Blog",
+                    "anchor": "Blogs",
                     "href": "https://1000xdesign.substack.com/",
                     "icon": "newspaper"
                 }
@@ -60,14 +63,14 @@
         ],
         "primary": {
             "type": "button",
-            "label": "Dashboard",
-            "href": "https://dashboard.mintlify.com"
+            "label": "Try Crit",
+            "href": "https://www.trycrit.com/"
         }
     },
     "footer": {
         "socials": {
             "x": "https://x.com/meetcrit",
-            "linkedin": "https://linkedin.com/company/mintlify"
+            "linkedin": "https://linkedin.com/company/1000xDesign"
         }
     }
 }
