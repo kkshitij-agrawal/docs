@@ -4,7 +4,7 @@
     "name": "1000x Design",
     "colors": {
         "primary": "#000",
-        "light": "#07C983",
+        "light": "#fff",
         "dark": "#fff"
     },
     "favicon": "/favicon.svg",
@@ -23,8 +23,8 @@
                 "pages": [
                     "crit/intro",
                   {
-                    "group": "How it works",
-                    "icon": "pen-paintbrush",
+                    "group": "Score calculation",
+                    "icon": "calculator-simple",
                     "pages": ["crit/design-score/overview", "crit/design-score/clarity", "crit/design-score/conversion"]
                   }
                 ]
