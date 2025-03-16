@@ -24,7 +24,7 @@
                   {
                     "group": "Score calculation",
                     "icon": "calculator-simple",
-                    "pages": ["crit/design-score/overview", "crit/design-score/clarity", "crit/design-score/conversion"]
+                    "pages": ["crit/design-score/overview", "crit/design-score/standards", "crit/design-score/clarity", "crit/design-score/conversion", "crit/design-score/design"]
                   },
                   "crit/integrations"
                 ]
