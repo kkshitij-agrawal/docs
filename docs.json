@@ -22,9 +22,9 @@
             ]
           },
           {
-            "group": "Essentials",
+            "group": "Design",
             "pages": [
-              "essentials/markdown",
+              "design/design-score/overview",
               "essentials/code",
               "essentials/images",
               "essentials/settings",
