@@ -25,7 +25,7 @@
             "group": "Design",
             "pages": [
               "design/design-score/overview",
-              "essentials/code",
+              "design-score/overview",
               "essentials/images",
               "essentials/settings",
               "essentials/navigation",
