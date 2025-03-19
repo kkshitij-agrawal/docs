@@ -23,7 +23,7 @@
                     "crit/intro",
                   {
                     "group": "Score calculation",
-                    "icon": "calculator-simple",
+                    "icon": "percent",
                     "pages": ["crit/design-score/overview", "crit/design-score/standards", "crit/design-score/clarity", "crit/design-score/conversion", "crit/design-score/design"]
                   },
                   "crit/integrations"
